@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: #6C76AC;
+    color: #c7cac9;
+}
+
+/* header */
+header {
+    background-color: #b5b4e4;
+
+}
+
+/* right side one */
+header nav ul li {
+    display: block;
+    padding: 0px 0;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+a { 
+    color: #C7CAC9;    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* menu button on the top */
+menu {
+    background-color: #B298DC;
+}
+   
+menu ul li {
+    background-color: #6C76AC;
+    color: #9AA0BB;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+
+}
+
+/* floating menu */
+figure {
+    position: fixed;
+    bottom:auto;
+    right: 0;
+}
+
+figure ul {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+figure ul li {
+    display: inline;
+}
+
+/* main starts */
+main {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+}
+
+h1 {
+    margin: 10px;
+}
+/* class selectors */
+.text-center {
+    text-align: center;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 110px;
+    height: 400px;
+    background-color: #353f79;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.text-right {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+
+/* id */
+#about {
+
+}
+
+#education {
+
+}
+
+#experience {
+
+}
+
+#skills {
+
+}
+
+#interests {
+
+}
+
+#awards {
+
+}
