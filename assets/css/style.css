@@ -34,34 +34,30 @@ a {
 /* menu button on the top */
 menu {
     background-color: #B298DC;
+    padding: 15px;
 }
    
 menu ul li {
-    background-color: #6C76AC;
-    color: #9AA0BB;
-    display: inline-block;
-    padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    display: inline;
+    padding: 10px;
     font-size: 25px;
-    border-radius: 10px;
-
+    margin-inline: 80px;
 }
 
 /* floating menu */
 figure {
     position: fixed;
-    bottom:auto;
     right: 0;
 }
 
 figure ul {
     margin-top: 20px;
-    margin-left: 5px;
+    margin-left: 5px; 
 }
 
 figure ul li {
-    display: inline;
+    display: block;
+    margin-bottom: 40px;
 }
 
 /* main starts */
