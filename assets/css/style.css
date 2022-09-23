@@ -44,10 +44,10 @@ figure {
     background-color: #c7cac9;
     position: fixed;
     width: 130px;
-    height: 150px; 
+    height: 220px; 
     border-bottom-left-radius: 20px;   
     border-top-left-radius: 20px;
-    bottom: 50%;
+    bottom: 20%;
     right: 0px;
 }
 
@@ -90,7 +90,7 @@ a {
 }
 
 .card {
-    flex: 1 0 200px;
+    flex: 1 0 10px;
     padding: 10px;
     text-align: center;
     border-width: 1px;
