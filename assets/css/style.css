@@ -43,10 +43,12 @@ article {
 figure {  
     background-color: #c7cac9;
     position: fixed;
-    width: 150px;
-    height: 20%; 
-    border-bottom-right-radius: 20px;   
-    border-top-right-radius: 20px;
+    width: 130px;
+    height: 150px; 
+    border-bottom-left-radius: 20px;   
+    border-top-left-radius: 20px;
+    bottom: 50%;
+    right: 0px;
 }
 
 figure ul {
@@ -79,6 +81,7 @@ footer {
 
 ul{
     list-style: none;
+    line-height: 35px;
 }
     
 a {
